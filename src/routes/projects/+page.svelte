@@ -25,14 +25,14 @@
         await setScene(wavySphere);
 
         // Get 'realTristan' Github Data
-        await self.fetch("https://api.github.com/users/realTristan/repos")
+        await self.fetch("https://api.github.com/users/LyghtCode/repos")
             .then(response => response.json())
             .then(json => repos = [...repos, ...json])
             .catch(error => console.log(error));
         
         
         // Get 'Simpson Computer Technologies Research' Github Data
-        await self.fetch("https://api.github.com/users/Simpson-Computer-Technologies-Research/repos")
+        await self.fetch("https://api.github.com/users/GolfDAO/repos")
             .then(response => response.json())
             .then(json => repos = [...repos, ...json])
             .catch(error => console.log(error));
@@ -64,9 +64,9 @@
         <div class="group">
             <!-- /realTristan Header -->
             <a class="font-black text-[1.2rem] xl:text-2xl 2xl:text-4xl text-white group-hover:text-gray-300 tracking-widest mt-8 ml-2 ease-linear duration-100"
-                href="https://github.com/realTristan?tab=repositories" rel="noopener noreferrer" target="_blank"
+                href="https://github.com/LyghtCode?tab=repositories" rel="noopener noreferrer" target="_blank"
                 in:fade={{ delay: 500, duration: 1000 }}>
-                <mark style="background: none;" class="text-[#38ffff]">/</mark>&nbsp;realTristan
+                <mark style="background: none;" class="text-[#38ffff]">/</mark>&nbsp;lyghtCode
             </a>
             <div class="bg-[#38ffff] h-1 mt-2 rounded-full w-0 group-hover:w-8 duration-700 ease-in-out"></div>
         </div>

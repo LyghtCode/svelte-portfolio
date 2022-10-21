@@ -7,7 +7,8 @@ const SCENE = new THREE.Scene();
 // Establish a new Sphere then add it to the scene
 const SPHERE = new THREE.Mesh(
 	new THREE.SphereGeometry(1, 75, 75), 
-	new THREE.MeshDepthMaterial()
+	new THREE.MeshDepthMaterial(),
+
 );
 SCENE.add(SPHERE);
 SPHERE.position.set(1.3, 0.4);
@@ -66,7 +67,7 @@ export const setScene = async (canvas) => {
 	// Render the new scene
 	renderer = new THREE.WebGLRenderer({ canvas: canvas });
 	// Change the Scene background-color to gray
-	renderer.setClearColor(0x101010);
+	renderer.setClearColor(0x198754);
 	// Size the scene
 	await resize();
 	// Animate the sphere

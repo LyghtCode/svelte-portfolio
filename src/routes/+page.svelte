@@ -38,7 +38,7 @@
 
 <!-- Top left "TS" Header -->
 <div class="group top-6 left-6 fixed">
-	<a class="font-black text-4xl text-white tracking-widest" href="/">TS</a>
+	<a class="font-black text-4xl text-white tracking-widest" href="/">LC</a>
 	<div class="bg-[#38ffff] h-1 mt-2 rounded-full w-0 group-hover:w-full duration-1000 ease-in-out"></div>
 </div>
 
@@ -72,7 +72,7 @@
 		<!-- Tristan Simpson Header -->
 		<h2 class="font-bold text-2xl xl:text-2xl text-gray-400" style="letter-spacing: 8px;"
 			in:fade={{ delay: 300, duration: 1000 }}>
-			TRISTAN SIMPSON
+			LyghtCode
 		</h2>
 
 		<!-- Developer Header -->
